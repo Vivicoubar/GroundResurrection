@@ -1,0 +1,14 @@
+name: GroundResurrection
+version: '${project.version}'
+main: fr.arcialys.groundresurrection.Main
+api-version: 1.19
+prefix: GroundResurrection
+authors: [ Arcialys ]
+description: "A plugin that allows resurrection by another player when killed"
+commands:
+  giveup:
+    aliases: ["GiveUp","giveup"]
+    description: "Give up life when you are on the ground, thus respawning immediately."
+    usage: "/GiveUp"
+    permission: "player.giveup.self"
+    permission-message: "You should have the permission player.giveup.self to use that!"
